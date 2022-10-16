@@ -1,3 +1,4 @@
+
 <nav>
     <!-- Navigation menu with news sections - see CSS for layout-->
   <!-- Each has a data-source attribute which contains the URI to be requested-->

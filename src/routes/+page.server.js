@@ -1,8 +1,11 @@
+// add dependency using npm install dotenv first
 import 'dotenv/config'
 
+// The load function executes before the page is displayed
 export const load = async () => {
 
 
+    // This async function will fetch and return articles from the Irish Times
     const fetchNews = async () => {
         
         const source = 'the-irish-times';
@@ -15,6 +18,7 @@ export const load = async () => {
 
     }
 
+    // Return articles - which calls fetchNews()
     return {
         articles: fetchNews(),
     }
