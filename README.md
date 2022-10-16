@@ -18,7 +18,7 @@ This example rebuilds the News API app, covered in a previous lab, using SvelteK
 
 The home page of the site will display the latest news from **The Irish Times** and the other links will show news from Ireland including **Top Headlines**, **Business**, and **Sport**.
 
-![1.1.site_layout](D:\webapps\_SSWD_2022\Labs_ft\svelte_client\2022.SSWD.5.3.sveltekit_news_app\media\1.1.site_layout.png)
+![1.1.site_layout](./media/1.1.site_layout.png)
 
 
 
@@ -30,7 +30,7 @@ You should start by creating a new **SvelteKit** application by running ```npm c
 
 Here is the complete site structure, add all the routes, pages, and other files shown here to your new app. The files can be left empty for now.
 
-![1.site_structure](D:\webapps\_SSWD_2022\Labs_ft\svelte_client\2022.SSWD.5.3.sveltekit_news_app\media\1.site_structure.png)
+![1.site_structure](./media/1.site_structure.png)
 
 
 
@@ -42,7 +42,7 @@ This page will display the top headlines from the Irish Times. As before, an api
 
 The variable name is important. SvelteKit makes variables with names starting with **```VITE_```** available on the SvelteKit server and also in the browser - this will be important later.
 
- ![3.env](D:\webapps\_SSWD_2022\Labs_ft\svelte_client\2022.SSWD.5.3.sveltekit_news_app\media\3.env.png)
+ ![3.env](./media/3.env.png)
 
 
 
