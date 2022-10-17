@@ -157,6 +157,8 @@ The only difference in **```/business```** and **```/sport```** is the **```cate
 
 As in the previous lab,  **```+layout.svelte```** defines a common page layout and navigation for the app. Note that the included CSS is applied to the navigation only.
 
+**Note:** The **`data-sveltekit-prefetch`** attribute causes data to be preloaded when the mouse pointer hovers over a link.
+
 ```html
 <nav>
     <!-- Navigation menu with news sections - see CSS for layout-->
